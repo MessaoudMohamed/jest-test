@@ -15,9 +15,9 @@ Running `yarn test` results in the following output:
     Ran all test suites.
     ✨  Done in 1.28s.
 
-We should be `testing console log` pop up somewhere. Updating the jest
-configuration in `package.json` to include `"testEnvironment": "node"`
-instead of the default `jsdom` results in:
+We should be seeing `testing console log` pop up somewhere. Updating
+the jest configuration in `package.json` to include
+`"testEnvironment": "node"` instead of the default `jsdom` results in:
 
     yarn test v0.18.1
     $ jest
